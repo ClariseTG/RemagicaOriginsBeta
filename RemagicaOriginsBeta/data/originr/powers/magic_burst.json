@@ -1,0 +1,54 @@
+{
+    "name": "Magic Blast",
+    "description": "You can unleash a blast of the magic keeping you alive to injure anything nearby.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:spawn_particles",
+                "particle": {
+                    "type": "minecraft:soul_fire_flame",
+                    "params": "0.922 0.314 0.314 2"
+                },
+                "count": 256,
+                "speed": 0.1,
+                "spread": {
+                    "x": 6.0,
+                    "y": 1.0,
+                    "z": 6.0
+                }
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:block.amethyst_block.break"
+            },
+            {
+                "type": "origins:area_of_effect",
+                "radius": 6,
+                "bientity_action": {
+                    "type": "origins:damage",
+                    "amount": 8,
+                    "source": {
+                        "name": "magic",
+                        "magic": true,
+                        "bypasses_armor": true
+                    }
+                },
+                "bientity_condition": {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:living"
+                    }
+                }
+            }
+        ]
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "cooldown": 60,
+    "hud_render": {
+        "should_render": true
+    }
+}

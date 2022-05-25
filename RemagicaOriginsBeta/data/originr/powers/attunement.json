@@ -1,0 +1,9 @@
+{
+	"name": "Attunement",
+	"description": "Due to your connection with the world around you, your ability to pull magic from the environment is strengthened",
+	"type": "origins:modify_xp_gain",
+    	"modifier": {
+        "operation": "multiply_base",
+        "value": 1.5
+    }
+}

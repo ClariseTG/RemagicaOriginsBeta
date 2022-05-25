@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "origins:elytra",
+        "origins:more_kinetic_damage",
+        "origins:cat_vision",
+        "originr:sharp_claws",
+        "originr:weapon_fumble",
+        "origins:light_armor",
+        "origins:carnivore",
+        "origins:more_exhaustion"
+    ],
+    "icon": "minecraft:chicken",
+    "order": 4,
+    "impact": 2,
+    "name":"Hiverscruff",
+    "description": "Carnivores built for the wilderness, Hiverscruffs are unmatched in their dominance of the sky and snow."
+}

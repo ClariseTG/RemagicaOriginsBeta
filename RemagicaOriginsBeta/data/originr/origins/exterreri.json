@@ -1,0 +1,15 @@
+{
+    "powers": [
+	"originr:pain_eat",
+	"originr:pain_eat_ii",
+	"originr:pain_eat_iii",
+        "originr:pain_sense",
+	"originr:pain_sense_ii",
+	"originr:otherworldly_strength"
+    ],
+    "icon": "minecraft:nether_star",
+    "order": 4,
+    "impact": 2,
+    "name":"Exterreri",
+    "description": "Glowing with the power of the End Plane, Exterreri feed on the emotions of those around them."
+}

@@ -1,0 +1,20 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Sand Absorption",
+    "description": "Doons can absorb sand into their bodies to heal and feed themselves. This process is free, but very slow.",
+    "interval": 80,
+    "entity_action": {
+        "type": "origins:feed",
+        "food": 1,
+        "saturation": 0
+    },
+    "condition": {
+        "type": "origins:in_block_anywhere",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "originr:doon_phasable"
+        },
+        "comparison": ">",
+        "compare_to": 0
+    }
+  }

@@ -1,0 +1,9 @@
+{
+	"hidden": true,
+	"type": "origins:modify_exhaustion",
+	"modifier:" {
+		"name": "No Exhaustion",
+		"operation": "multiply_total",
+		"value": 0
+	}
+}

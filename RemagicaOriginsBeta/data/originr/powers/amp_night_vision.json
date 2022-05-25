@@ -1,0 +1,11 @@
+{
+    "type": "origins:modify_status_effect_amplifier",
+    "name": "",
+    "description": "",
+    "hidden": true,
+    "status_effect": "minecraft:night_vision",
+    "modifier": {
+        "operation": "addition",
+        "value": 1
+    }
+}

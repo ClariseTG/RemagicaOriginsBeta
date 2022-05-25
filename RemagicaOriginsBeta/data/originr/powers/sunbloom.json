@@ -1,0 +1,40 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Solar Bloom",
+    "description": "Sunlight is the best kind of light for Phorads, giving them absorption in addition to normal photosynthesis benefits.",
+    "interval": 200,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:absorption",
+            "duration": 6000,
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false 
+        }
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:in_block",
+                "block_condition": {
+                    "type": "origins:offset",
+                    "y": 1,
+                    "condition": {
+                        "type": "origins:exposed_to_sky"
+                    }
+                }
+            },
+            {
+                "type": "origins:daytime"
+            },
+            {
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">",
+                "compare_to": 0
+            }
+        ]
+    }
+}

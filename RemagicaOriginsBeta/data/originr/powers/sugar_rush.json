@@ -1,0 +1,17 @@
+{
+	"name": "Sugar Rush",
+	"description": "Drinking honey gives you a burst of energy, enabling you to fly for a short while!",
+	"type": "origins:action_on_item_use",
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "originr:sugar",
+		"operation": "set",
+		"change": 30
+	},
+	"item_condition": {
+		"type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:honey_bottle"
+        }
+	}
+}

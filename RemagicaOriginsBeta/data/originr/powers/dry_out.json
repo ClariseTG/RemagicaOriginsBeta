@@ -1,0 +1,60 @@
+{
+    "type": "origins:stacking_status_effect",
+    "name": "Waterborn",
+    "description": "As an aquatic mammal, you need water to survive and struggle in dry environments.",
+    "min_stacks": -20,
+    "max_stacks": 361,
+    "duration_per_stack": 10,
+    "effects": [
+      {
+        "effect": "minecraft:weakness",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      },
+      {
+        "effect": "minecraft:slowness",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      }
+    ],
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:biome",
+                "condition": {
+                    "type": "origins:temperature",
+                    "comparison": ">=",
+                    "compare_to": 2
+                }
+            },
+            {
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": "==",
+                "compare_to": 0
+            },
+            {
+                "type": "origins:in_rain",
+                "inverted": true
+            },
+            {
+                "type": "origins:daytime"
+            },
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:dimension",
+                        "dimension": "minecraft:the_nether"
+                    },
+                    {
+                        "type": "origins:exposed_to_sun"
+                    }
+                ]
+            }
+        ]
+    }
+  }

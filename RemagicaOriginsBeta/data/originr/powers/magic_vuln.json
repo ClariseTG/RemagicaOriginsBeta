@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_damage_taken",
+    "name": "Magic Vulnerability",
+    "description": "You are gay so the anti-gay spells work better.",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "magic"
+    },
+    "modifier": {
+        "value": 1.5,
+        "operation": "multiply_base"
+    }
+  }

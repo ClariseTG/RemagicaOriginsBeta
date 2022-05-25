@@ -1,0 +1,9 @@
+{
+	"icon": {
+		"item": "minecraft:player_head"
+	},
+    "name": "Valdien",
+    "description": "A hardy race, built in the visage of this world's creators.",
+	"order": 0,
+	"impact": 0
+}

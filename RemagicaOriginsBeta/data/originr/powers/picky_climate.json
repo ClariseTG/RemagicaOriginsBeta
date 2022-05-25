@@ -1,0 +1,64 @@
+{
+    "type": "origins:stacking_status_effect",
+    "name": "Climate Sensitive",
+    "description": "You wither away in extreme heat and cold climates",
+    "min_stacks": -20,
+    "max_stacks": 361,
+    "duration_per_stack": 10,
+    "effects": [
+      {
+        "effect": "minecraft:wither",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      }
+    ],
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:biome",
+                        "condition": {
+                            "type": "origins:temperature",
+                            "comparison": "<",
+                            "compare_to": 0.2
+                        }
+                    },
+                    {
+                        "type": "origins:biome",
+                        "condition": {
+                            "type": "origins:temperature",
+                            "comparison": ">=",
+                            "compare_to": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:in_block",
+                        "block_condition": {
+                            "type": "origins:adjacent",
+                            "adjacent_condition": {
+                                "type": "origins:exposed_to_sky"
+                            },
+                            "comparison": ">",
+                            "compare_to": 0
+                        }
+                    },
+                    {
+                        "type": "origins:in_block",
+                        "block_condition": {
+                            "type": "origins:exposed_to_sky"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+  }

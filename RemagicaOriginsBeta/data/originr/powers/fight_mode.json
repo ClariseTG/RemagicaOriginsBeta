@@ -1,0 +1,30 @@
+{
+	"name":"Fight Mode",
+	"description": "By pressing the active origin key, you can give your cybernetic parts a power boost to get you out of a sticky situation.",
+	"type": "origins:active_self",
+	"cooldown": 1200,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/resource_bar.png",
+		"bar_index": 4
+	},
+	"entity_action":{
+		"type": "origins:apply_effect",
+		"effects": [
+        {
+            "effect": "minecraft:strength",
+            "duration": 400,
+	    "amplifier": 1,
+            "is_ambient": false,
+            "show_particles": true,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:speed",
+            "duration": 400,
+            "is_ambient": false,
+            "show_particles": true,
+            "show_icon": true
+        }
+    ]
+	}
+}

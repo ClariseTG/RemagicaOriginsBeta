@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Gills",
+    "description": "You can breathe underwater.",
+    "entity_action": {
+        "type": "origins:gain_air",
+        "value": 200
+    },
+    "interval": 10,
+    "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0
+    }
+}

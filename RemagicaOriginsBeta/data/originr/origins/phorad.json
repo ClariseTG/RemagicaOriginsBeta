@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "originr:photosynthesis",
+        "originr:cannot_eat",
+        "originr:water_bottle_synthesis",
+        "originr:green_thumb",
+        "originr:flammable",
+        "originr:picky_climate"
+    ],
+    "icon": "minecraft:vine",
+    "order": 4,
+    "impact": 3,
+    "name":"Phorad",
+    "description": "Blurring the line between plant and animal, Phorads are flora that have evolved to take over animalian hosts, hijacking their brain and exploiting the best of both worlds."
+}

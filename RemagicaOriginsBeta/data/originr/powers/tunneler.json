@@ -1,0 +1,15 @@
+{
+  "type": "origins:modify_break_speed",
+  "condition": {
+    "type": "origins:brightness",
+    "comparison": "<=",
+	"compare_to": 0.15
+  },
+  "modifier": {
+    "name": "Depth Mining break speed bonus",
+    "value": 0.6,
+    "operation": "multiply_base"
+  },
+  "name": "Tunneler",
+  "description": "In the dark, your ambush instincts activate, allowing you to tunnel faster."
+}
