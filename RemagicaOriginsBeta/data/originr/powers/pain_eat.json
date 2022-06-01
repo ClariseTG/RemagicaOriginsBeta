@@ -1,6 +1,5 @@
 {
-	"name": "Pain_eat",
-	"description": "Of all the sensations to feed on, pain is the most nourishing to you, and you heal whenever you cause it.",
+	"hidden": true,
 	"type": "origins:action_on_hit",
 	"bientity_action": {
 		"type": "origins:actor_action",
