@@ -1,9 +1,9 @@
 {
-	"hidden": true,
-	"type": "origins:modify_exhaustion",
-	"modifier:" {
-		"name": "No Exhaustion",
-		"operation": "multiply_total",
-		"value": 0
-	}
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+	"name": "No exhaustion from Origin power",
+	"operation": "multiply_base",
+	"value": -1
+  },
+  "hidden": true
 }
