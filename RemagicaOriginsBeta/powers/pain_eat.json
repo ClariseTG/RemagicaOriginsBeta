@@ -1,0 +1,11 @@
+{
+	"hidden": true,
+	"type": "origins:action_on_hit",
+	"bientity_action": {
+		"type": "origins:actor_action",
+		"action": {
+			"type": "origins:heal",
+			"amount": 1.0
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "type": "origins:prevent_item_use",
+    "name": "Gemstone Core",
+    "description": "Doon do not eat normal food. Instead, they can eat sand-like substances, and food rich in minerals to sustain themselves.",
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "originr:mineral_food"
+            },
+            "inverted": true
+        },
+        {
+          "type": "origins:food"
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins:ignore_diet"
+          },
+          "inverted": true
+        }
+      ]
+    }
+  }

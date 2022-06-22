@@ -1,0 +1,10 @@
+{
+    "type": "origins:effect_immunity",
+    "name": "Made of Sand",
+    "description": "You are made of sand. As a result, most poisons don't work on you.",
+    "effects": [
+        "minecraft:poison",
+        "minecraft:hunger",
+        "minecraft:wither"
+    ]
+}

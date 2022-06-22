@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "origins:cat_vision",
+        "origins:more_exhaustion",
+        "originr:magic_burst",
+	"originr:elemental_boost_fire"
+    ],
+    "icon": "minecraft:amethyst_shard",
+    "order": 4,
+    "impact": 1,
+    "name":"Remagus",
+    "description": "Forced back to life by a lifeblood of magic, Remagi find themself with innate control over the magic that surrounds them."
+}

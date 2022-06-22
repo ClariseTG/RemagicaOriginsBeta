@@ -1,0 +1,23 @@
+{
+	"hidden": true,
+	"type": "origins:entity_glow",
+	"entity_condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type":"origins:relative_health",
+			"comparison": ">=",
+			"compare_to": 1
+		}
+		]
+	},
+	"bientity_condition": {
+		"type": "origins:distance",
+		"comparison": "<=",
+		"compare_to": 10
+	},
+	"use_teams": false,
+	"red":1.0,
+	"green":0.76,
+	"blue":0.96
+}

@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "origins:aquatic",
+        "originr:gills",
+		"origins:water_vision",
+		"origins:aqua_affinity",
+		"origins:swim_speed",
+		"origins:like_water",
+		"origins:conduit_power_on_land",
+        "originr:dry_out"
+    ],
+    "icon": "minecraft:tropical_fish",
+    "order": 5,
+    "impact": 3,
+    "name":"Marigen",
+    "description": "Swishy fishy swimming along the shore. Uncontested swimmers, Marigen are shockingly fast in the water– not like land will slow them down."
+}

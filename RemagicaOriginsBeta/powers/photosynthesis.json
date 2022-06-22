@@ -1,0 +1,27 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Photosynthesis",
+    "description": "Phorads cannot eat food. Instead, they restore hunger through light and water. In a bright environment, stand in or drink some water to eat.",
+    "interval": 50,
+    "entity_action": {
+        "type": "origins:feed",
+        "food": 1,
+        "saturation": 1
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:brightness",
+                "comparison": ">=",
+                "compare_to": 0.33333334
+            },
+            {
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">",
+                "compare_to": 0
+            }
+        ]
+    }
+  }

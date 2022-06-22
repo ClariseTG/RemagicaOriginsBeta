@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "origins:more_exhaustion",
+	"origins:fall_immunity",
+	"originr:hydrophobia",
+	"originr:in_trees",
+	"originr:fight_mode",
+	"originr:tree_climbing"
+    ],
+    "icon": "minecraft:daylight_detector",
+    "order": 4,
+    "impact": 2,
+    "name":"Wyrmling (Cyborg)",
+    "description": "They're in the trees! Survivalists in the jungle, Wyrmlings find themselves with surprising combat abilities, as well as some strange-looking metal parts."
+}

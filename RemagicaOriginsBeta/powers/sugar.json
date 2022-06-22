@@ -1,0 +1,28 @@
+{
+	"name": "Sugar",
+	"description": "Flight timer resource. Flight time remaining in seconds.",
+	"hidden": true,
+	"type": "origins:resource",
+	"min": 0,
+	"max": 30,
+	"min_action": {
+		"type": "origins:revoke_power",
+		"power": "originr:sugar_wings",
+		"source": "*:*"
+	},
+	"max_action": {
+		"type": "origins:grant_power",
+		"power": "originr:sugar_wings",
+		"source": "*:*"
+	},
+	"hud_render": {
+		"should_render": true,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "originr:sugar",
+			"comparison": ">",
+			"compare_to": 0
+		}
+	}
+}
+

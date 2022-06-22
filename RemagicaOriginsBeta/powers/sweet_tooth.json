@@ -1,0 +1,27 @@
+{
+    "type": "origins:prevent_item_use",
+    "name": "Sweet Tooth",
+    "description": "Apians can't process food very well, but they can process sugar just fine!",
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "originr:sugary"
+            },
+            "inverted": true
+        },
+        {
+          "type": "origins:food"
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins:ignore_diet"
+          },
+          "inverted": true
+        }
+      ]
+    }
+  }

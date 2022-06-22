@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_damage_taken",
+    "name": "Flammable",
+    "description": "You are more vulnerable to flames and take extra damage from them.",
+    "damage_condition": {
+        "type": "origins:fire"
+    },
+    "modifier": {
+        "value": 0.5,
+        "operation": "multiply_base"
+    }
+  }

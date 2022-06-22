@@ -1,0 +1,12 @@
+{
+	"name": "Sugar timer",
+	"description": "Ticks down the sugar timer once every second.",
+	"hidden": true,
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "originr:sugar",
+    	"change": -1
+	},
+	"interval": 20
+}

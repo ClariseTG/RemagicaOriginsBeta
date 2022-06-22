@@ -1,0 +1,12 @@
+{
+	"type": "origins:attribute",
+	"modifier": {
+		"name": "Speed Increase",
+		"attribute": "minecraft:generic.movementSpeed",
+		"value": 0.4,
+		"operation": "multiply_base"
+	},
+	"condition": {
+		"type": "origins:climbing"
+	}
+}

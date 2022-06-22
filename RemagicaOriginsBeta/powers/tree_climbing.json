@@ -1,0 +1,19 @@
+{
+	"name": "Tree-habitation",
+	"description": "You can climb many natural surfaces, especially trees.",
+	"type": "origins:climbing",
+    "condition": {
+        "type": "origins:in_block_anywhere",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "originr:natural"
+        }
+    },
+    "hold_condition": {
+        "type": "origins:in_block_anywhere",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "origins:cobwebs"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "origins:fire_immunity",
+        "originr:doon_immunity",
+        "originr:mineral_diet",
+        "originr:eat_sand",
+        "originr:sand_phasing",
+        "originr:suffocation_immunity",
+        "origins:strong_arms",
+        "origins:strong_arms_break_speed",
+        "origins:water_vulnerability"
+    ],
+    "icon": "minecraft:sand",
+    "order": 4,
+    "impact": 3,
+    "name":"Doon",
+    "description": "With bodies made of sand, the desert is your best friend. Doons are masters of the earth, given they are made of it."
+}

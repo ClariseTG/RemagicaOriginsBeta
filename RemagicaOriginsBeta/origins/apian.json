@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "origins:like_air",
+	"origins:tailwind",
+        "originr:produce_honey",
+        "originr:sweet_tooth",
+        "origins:fragile",
+	"origins:brittle_bones",
+	"originr:bee_flight",
+	"originr:sugar",
+        "originr:sugar_rush",
+        "originr:sugar_rush_timer"
+    ],
+    "icon": "minecraft:honeycomb",
+    "order": 4,
+    "impact": 1,
+    "name":"Apian",
+    "description": "Fuzzy and cute as they may be, Apians are nothing if not resourceful, able to stay afloat and turn natural materials into usable food."
+}

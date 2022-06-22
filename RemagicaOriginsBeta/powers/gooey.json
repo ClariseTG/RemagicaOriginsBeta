@@ -1,0 +1,13 @@
+{
+"hidden": true,
+"type": "origins:multiple",
+	"translucence": {
+		"type": "origins:model_color",
+		"alpha": 0.7
+	},
+	"particles": {
+		"type": "origins:particle",
+		"particle": "minecraft:glow",
+		"frequency": 14
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "originr:gills",
+        "origins:strong_arms",
+        "origins:carnivore",
+        "origins:fast_metabolism",
+	"originr:deep_health",
+	"originr:tunneler",
+	"originr:water_dig",
+	"originr:aquatic_predator"
+    ],
+    "icon": "minecraft:dark_prismarine",
+    "order": 4,
+    "impact": 3,
+    "name":"Hadalite",
+    "description": "Creatures of the deep, little is known about Hadalites, other than their strength and endurance in the harsh climate of the deep."
+}

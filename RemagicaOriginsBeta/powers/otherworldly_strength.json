@@ -1,0 +1,18 @@
+{
+"hidden": true,
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -20,
+    "max_stacks": 250,
+    "duration_per_stack": 10,
+    "effect": {
+	"minecraft:resistance",
+	"is_ambient": true,
+	"show_particles": false,
+	"show_icon": false
+	},
+    "condition": {
+        "type": "origins:dimension",
+	"dimension": "minecraft:end",
+        "inverted": false
+    }
+}

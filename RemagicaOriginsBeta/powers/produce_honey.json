@@ -1,0 +1,41 @@
+{
+    "type": "origins:action_on_wake_up",
+    "name": "Honey Maker",
+    "description": "Apians are natural producers of honey. If you fall asleep with an empty bottle you will wake up with some delicious honey!",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:glass_bottle"
+                }
+            }
+        },
+        "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:give",
+                    "stack": {
+                        "item": "minecraft:honey_bottle"
+                    }
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:item.bottle.fill"
+                },
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "offhand",
+                    "action": {
+                        "type": "origins:consume",
+                        "amount": 1
+                    }
+                }
+            ]
+        }
+    }
+}

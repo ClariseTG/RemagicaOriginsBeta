@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+	"name": "Extra Exhaustion",
+	"operation": "multiply_total",
+	"value": 1.3
+  },
+  "name": "Fast Metabolism",
+  "description": "You starve significantly quicker than other creatures."
+}
